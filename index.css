@@ -6,15 +6,15 @@
   align-items: center;
   flex-direction: column;
 }
-.page-page {
-  max-width: 1440px;
+.page-page { 
+  width: 100%;
   height: auto;
   display: flex;
   overflow: hidden;
   align-items: flex-start;
   flex-shrink: 0;
   flex-direction: column;
-  background-color: rgba(246, 246, 246, 1);
+  background-color: rgb(38 38 38);
 }
 .page-div1 {
   width: 100%;
@@ -229,7 +229,7 @@
   display: flex;
   overflow: hidden;
   align-items: flex-start;
-  background-color: rgba(27, 27, 27, 1);
+  background-color: rgb(11 12 11);
 }
 .page-cardsolucao {
   width: 100%;
@@ -2322,7 +2322,7 @@
   flex-shrink: 1;
   background-color: rgba(255, 238, 235, 1);
 }
-.page-mailsendenvelopeenvelopeemailmessageunopenedsealed {
+.page-mailsend {
   top: 15px;
   left: 14px;
   width: 13px;
@@ -2471,7 +2471,7 @@
 }
 
 .menuHamb ul li a {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 85px;
     padding: 27px 80px;
     color: #fff;
@@ -2542,7 +2542,13 @@
 }
 
 
-
+.page-header, .page-frame1000002094, .page-cardsolucao, div#sobreContent, 
+div#clientesContent, .page-frame1000002118, .page-frame1000002102,
+.page-div71, .page-div72, .page-footer, .page-frame1000002099 {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
 
 
 
