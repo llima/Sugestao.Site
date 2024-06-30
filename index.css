@@ -238,7 +238,7 @@
   overflow: hidden;
   align-items: center;
   border-radius: 20px 20px 0 0;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgb(255, 255, 255);
 }
 .page-cardsoluo {
   width: 100%;
@@ -2541,13 +2541,17 @@
     text-indent: -9999px;
 }
 
-
-.page-header, .page-frame1000002094, .page-cardsolucao, div#sobreContent, 
-div#clientesContent, .page-frame1000002118, .page-frame1000002102,
-.page-div71, .page-div72, .page-footer, .page-frame1000002099 {
+.maxwidth {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
+}
+
+
+.maxwidth2 {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 
