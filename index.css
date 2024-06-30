@@ -24,7 +24,7 @@
   flex-shrink: 0;
   flex-direction: column;
   background-size: cover;
-  background-image: url("public/external/tq_jnd0uyd87i-6j1k-700h.png");
+  background-image: url("assets/external/tq_jnd0uyd87i-6j1k-700h.png");
 }
 .page-header {
   gap: 10px;
@@ -2441,7 +2441,7 @@
   text-decoration: none;
 }
 .btnHamb {
-    background: transparent url("./public/external/menuHamb_bg.png");
+    background: transparent url("./assets/external/menuHamb_bg.png");
     right: 15px;
     position: absolute;
     width: 60px;
